@@ -1,0 +1,49 @@
+---
+:source:
+  :path: test
+  :file: test_BubbleSort.c
+:successes:
+- :test: test_swap_should_not_swap_two_values_if_in_order
+  :line: 8
+  :message: ''
+- :test: test_swap_should_swap_two_values_if_not_in_order
+  :line: 16
+  :message: ''
+- :test: test_swap_should_not_swap_two_negative_values_if_in_order_
+  :line: 24
+  :message: ''
+- :test: test_swap_should_swap_two_negative_values_if_not_in_order
+  :line: 32
+  :message: ''
+- :test: test_singleBubbleSort_given_22_should_do_nothing
+  :line: 40
+  :message: ''
+- :test: test_singleBubbleSort_given_22_5_should_swap_larger_number_to_the_end
+  :line: 48
+  :message: ''
+- :test: test_singleBubbleSort_should_move_the_largest_number_to_the_end
+  :line: 57
+  :message: ''
+- :test: test_singleBubbleSort_should_move_the_largest_number_to_the_end_with_negative_number
+  :line: 67
+  :message: ''
+- :test: test_singleBubbleSort_given_four_number_which_in_order_should_do_nothing
+  :line: 77
+  :message: ''
+- :test: test_singleBubbleSort_given_four_negative_number_which_in_order_should_do_nothing
+  :line: 87
+  :message: ''
+- :test: test_bubbleSort_given_42_22_5_should_sort_to_5_22_42
+  :line: 98
+  :message: ''
+- :test: test_bubbleSort_given_23_1_70_150_neg_100_5_90_should_sort_to_neg100_1_5_23_70_90_150
+  :line: 110
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 12
+  :passed: 12
+  :failed: 0
+  :ignored: 0
+:stdout: []
