@@ -1,0 +1,27 @@
+---
+:source:
+  :path: test
+  :file: test_FunctionPointer.c
+:successes:
+- :test: test_addThenMultiply_given_2_plus_3_times_4_should_get_20
+  :line: 53
+  :message: ''
+- :test: test_addThenMultiply_given_2p3_plus_3p4_times_4p5_should_get_xxx
+  :line: 62
+  :message: ''
+- :test: test_explore_function_pointer
+  :line: 72
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 3
+  :passed: 3
+  :failed: 0
+  :ignored: 0
+:stdout:
+- v1 is 20
+- v1 is 25.650000
+- 'val: 20'
+- '2 + 3: 5'
+- '6 + 7: 13'
